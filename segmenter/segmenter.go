@@ -2,7 +2,6 @@ package segmenter
 
 import (
     "github.com/wangbin/jiebago/posseg"
-	"github.com/astaxie/beego/logs"
 )
 
 const (
@@ -17,11 +16,11 @@ var (
 func init() {
 	err := gSeg.LoadDictionary(DEFAULT_DICT_PATH)
 	if err != nil {
-		logs.Critical(err)
+		panic(err)
 	}
 	err = gSeg.LoadUserDictionary(USER_DICT_PATH)
 	if err != nil {
-		logs.Critical(err)
+		panic(err)
 	}
 }
 
