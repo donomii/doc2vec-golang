@@ -3,7 +3,7 @@ package main
 import (
     "net/http"
     _ "net/http/pprof"
-	"github.com/lokicui/doc2vec-golang/doc2vec"
+	"github.com/donomii/doc2vec-golang/doc2vec"
 	"log"
 	"os"
 )

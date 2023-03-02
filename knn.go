@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/lokicui/doc2vec-golang/doc2vec"
-    "github.com/lokicui/doc2vec-golang/common"
-    "github.com/lokicui/doc2vec-golang/segmenter"
+	"github.com/donomii/doc2vec-golang/doc2vec"
+    "github.com/donomii/doc2vec-golang/common"
+    "github.com/donomii/doc2vec-golang/segmenter"
 	"log"
 	"os"
 	"strconv"

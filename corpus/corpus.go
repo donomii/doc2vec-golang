@@ -4,7 +4,7 @@ import (
 	"bufio"
 	_ "errors"
 	"fmt"
-    "github.com/lokicui/doc2vec-golang/common"
+    "github.com/donomii/doc2vec-golang/common"
 	"log"
 	"math"
 	"os"

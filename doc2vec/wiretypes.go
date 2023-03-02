@@ -1,8 +1,8 @@
 package doc2vec
 
 import (
-	"github.com/lokicui/doc2vec-golang/corpus"
-	"github.com/lokicui/doc2vec-golang/neuralnet"
+	"github.com/donomii/doc2vec-golang/corpus"
+	"github.com/donomii/doc2vec-golang/neuralnet"
     "sync"
 )
 
